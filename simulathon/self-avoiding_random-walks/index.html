@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Self-Avoiding Random Walk</title>
+        <!-- Carga la librería de p5.js desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+        <!-- El código JS -->
+        <script src="sketch.js"></script>
+        <!-- <style>
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+        </style> -->
+        <!-- Para llamar el css (si no se hace lo quito) -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <button id="resetButton">Reiniciar</button>
+        <script>
+            document.getElementById('resetButton').addEventListener('click', resetSketch);
+        </script>
+    </body>
+</html>
